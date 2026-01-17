@@ -1,4 +1,5 @@
 import { Search, Gift, Zap, User } from "lucide-react";
+import HadiTechLogo from "./HadiTechLogo";
 
 const TopNav = () => {
   return (
@@ -6,9 +7,7 @@ const TopNav = () => {
       <div className=" max-w-7xl mx-auto text-white py-4 px-4 flex items-center justify-between gap-4">
         {/* Logo */}
         <div className="shrink-0">
-          <h1 className="text-2xl font-bold text-orange-500 cursor-pointer">
-            STAR TECH
-          </h1>
+          <HadiTechLogo />
         </div>
 
         {/* Search Bar */}
@@ -35,7 +34,7 @@ const TopNav = () => {
           </div>
 
           <div className="hidden lg:flex items-center gap-2 cursor-pointer group">
-            <Zap className="text-orange-500 group-hover:text-white transition" />
+            <Zap className="text-orange-500 group-hover:text-white transition animate-pulse" />
             <div>
               <p className="text-sm font-semibold">Happy Hour</p>
               <p className="text-[10px] text-gray-400">Special Deals</p>
