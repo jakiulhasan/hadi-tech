@@ -1,6 +1,7 @@
 import Notice from "@/components/common/Notice";
 import Banner from "@/components/layout/Banner";
 import Navbar from "@/components/layout/Navbar";
+import ServiceSection from "@/components/layout/ServiceSection";
 import React from "react";
 
 const page = () => {
@@ -9,6 +10,7 @@ const page = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <Notice></Notice>
+      <ServiceSection></ServiceSection>
     </div>
   );
 };
