@@ -2,6 +2,7 @@
 import React from "react";
 import { useSession, signOut } from "next-auth/react";
 import { useRouter } from "next/navigation";
+import Swal from "sweetalert2";
 import { LogOut, Package, List, LayoutDashboard, User, Plus, X } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -38,7 +39,17 @@ const ItemsListPage = () => {
             });
 
             if (res.ok) {
-                alert("Product added successfully!");
+                Swal.fire({
+                    icon: "success",
+                    title: "Success!",
+                    text: "Product added successfully",
+                    background: "#ffffff",
+                    confirmButtonColor: "#ea580c",
+                    customClass: {
+                        popup: "rounded-3xl border border-slate-100 shadow-xl",
+                        confirmButton: "px-6 py-3 rounded-2xl font-bold"
+                    }
+                });
                 setIsModalOpen(false);
                 setFormData({
                     name: "",
@@ -50,11 +61,21 @@ const ItemsListPage = () => {
                 });
             } else {
                 const data = await res.json();
-                alert(data.error || "Something went wrong");
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: data.error || "Something went wrong",
+                    confirmButtonColor: "#ea580c"
+                });
             }
         } catch (error) {
             console.error("Error adding product:", error);
-            alert("Failed to add product");
+            Swal.fire({
+                icon: "error",
+                title: "Error",
+                text: "Failed to add product",
+                confirmButtonColor: "#ea580c"
+            });
         } finally {
             setIsLoading(false);
         }

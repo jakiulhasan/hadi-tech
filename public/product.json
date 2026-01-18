@@ -852,6 +852,21 @@
               "stars": 4
             }
           ]
+        },
+        {
+          "id": "ph-06",
+          "name": "Iphon ",
+          "description": "Iphon",
+          "short_description": "iphon",
+          "price": 69000,
+          "rating": 0,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45",
+          "seller_details": {
+            "name": "Admin User",
+            "location": "Dhaka",
+            "warranty": "No Warranty"
+          },
+          "reviews": []
         }
       ]
     },
