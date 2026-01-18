@@ -10,7 +10,7 @@ const nextConfig = {
       },
     ],
   },
-  reactCompiler: true,
+  reactCompiler: false,
 };
 
 export default nextConfig;
