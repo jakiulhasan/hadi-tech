@@ -94,7 +94,7 @@ const TopNav = () => {
                   {session.user.name.charAt(0)}
                 </div>
                 <div>
-                  <p className="text-sm font-semibold truncate max-w-[80px]">
+                  <p className="text-sm font-semibold truncate max-w-20">
                     {session.user.name}
                   </p>
                   <p className="text-[10px] text-gray-400">Account</p>
@@ -105,8 +105,12 @@ const TopNav = () => {
               <div className="absolute right-0 top-full pt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <div className="bg-white rounded-xl shadow-2xl border border-slate-100 py-2 overflow-hidden">
                   <div className="px-4 py-3 border-b border-slate-50 mb-1">
-                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Signed in as</p>
-                    <p className="text-sm font-bold text-slate-800 truncate">{session.user.email}</p>
+                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+                      Signed in as
+                    </p>
+                    <p className="text-sm font-bold text-slate-800 truncate">
+                      {session.user.email}
+                    </p>
                   </div>
 
                   <Link
@@ -128,7 +132,10 @@ const TopNav = () => {
               </div>
             </div>
           ) : (
-            <Link href="/login" className="flex items-center gap-2 cursor-pointer group">
+            <Link
+              href="/login"
+              className="flex items-center gap-2 cursor-pointer group"
+            >
               <User className="text-orange-500 group-hover:text-white transition" />
               <div>
                 <p className="text-sm font-semibold">Account</p>
@@ -150,15 +157,21 @@ const TopNav = () => {
       >
         <div className="space-y-4">
           <div className="p-4 bg-orange-50 border border-orange-100 rounded-2xl">
-            <h4 className="font-bold text-orange-600 mb-1">Mega Winter Sale!</h4>
-            <p className="text-sm text-slate-600">Get up to 40% off on all components and peripherals.</p>
+            <h4 className="font-bold text-orange-600 mb-1">
+              Mega Winter Sale!
+            </h4>
+            <p className="text-sm text-slate-600">
+              Get up to 40% off on all components and peripherals.
+            </p>
           </div>
           <div className="p-4 bg-blue-50 border border-blue-100 rounded-2xl">
             <h4 className="font-bold text-blue-600 mb-1">Student Discount</h4>
-            <p className="text-sm text-slate-600">Show your student ID and get an extra 5% discount.</p>
+            <p className="text-sm text-slate-600">
+              Show your student ID and get an extra 5% discount.
+            </p>
           </div>
           <button className="w-full py-3 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition-all">
-            View All Offers
+            No More Offer
           </button>
         </div>
       </Modal>
@@ -173,14 +186,24 @@ const TopNav = () => {
             <Zap size={48} />
           </div>
           <div>
-            <h4 className="text-2xl font-bold text-slate-900">Flash Sale is ON!</h4>
-            <p className="text-slate-500 mt-1">Starting from 2:00 PM - 5:00 PM today.</p>
+            <h4 className="text-2xl font-bold text-slate-900">
+              Flash Sale is ON!
+            </h4>
+            <p className="text-slate-500 mt-1">
+              Starting from 2:00 PM - 5:00 PM today.
+            </p>
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border-2 border-dashed border-slate-200">
-            <p className="text-xs font-bold text-slate-400 uppercase mb-2">Your Secret Coupon</p>
-            <p className="text-3xl font-black text-slate-900 tracking-widest uppercase">HAPPY50</p>
+            <p className="text-xs font-bold text-slate-400 uppercase mb-2">
+              Your Secret Coupon
+            </p>
+            <p className="text-3xl font-black text-slate-900 tracking-widest uppercase">
+              HAPPY50
+            </p>
           </div>
-          <p className="text-sm text-slate-400 italic font-medium">* Valid for first 50 customers only.</p>
+          <p className="text-sm text-slate-400 italic font-medium">
+            * Valid for first 50 customers only.
+          </p>
         </div>
       </Modal>
     </nav>

@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hadi Tech - Modern E-commerce Platform
 
-## Getting Started
+Hadi Tech is a premium, high-performance e-commerce platform built with **Next.js 15+** and **Tailwind CSS 4**. It features a modern, "tech-vibe" aesthetic with smooth animations, dynamic content, and a robust user authentication system.
 
-First, run the development server:
+## 🚀 Getting Started
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
+
+- Node.js 18.x or higher
+- MongoDB instance (local or Atlas)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd hadi-tech
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory and add your MongoDB URI and Auth secrets:
+   ```env
+   MONGODB_URI=your_mongodb_uri
+   NEXTAUTH_SECRET=your_nextauth_secret
+   NEXTAUTH_URL=http://localhost:3000
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛤️ Route Summary
 
-## Learn More
+| Route | Description |
+|-------|-------------|
+| `/` | Home page with featured products, categories, and newsletter. |
+| `/login` | User authentication page (Sign In). |
+| `/register` | New user registration page. |
+| `/dashboard` | User profile and account management. |
+| `/category/[slug]/[id]` | Product listing by category. |
+| `/items/[id]` | Individual product details page. |
+| `/search` | Global product search results. |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Implemented Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. **Core E-commerce Workflow**
+- **Dynamic Product Display**: Interactive product cards with hover effects and quick views.
+- **Category Browsing**: Featured categories with smooth transitions and filtering.
+- **Search System**: Real-time product search functionality.
 
-## Deploy on Vercel
+### 2. **User Experience & UI**
+- **Modern Animations**: Powered by `framer-motion` for sections, modals, and transitions.
+- **Responsive Navigation**: Multi-layered navigation (`TopNav`, `SecondNav`, `Navbar`) with mobile optimization.
+- **Interactive Modals**: Polished modal system for offers, login, and product previews.
+- **Interactive Map**: Store location finder using `Leaflet`.
+- **Newsletter**: Integrated `TechVibeNewsletter` for user engagement.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. **Authentication & Security**
+- **NextAuth.js Integration**: Secure authentication with support for various providers.
+- **Protected Routes**: Dashboard and user-specific actions are restricted to authenticated users.
+- **Bcrypt Password Hashing**: Secure data storage in MongoDB.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 4. **Technical Excellence**
+- **Next.js App Router**: Utilizing the latest React Server Components for performance.
+- **Tailwind CSS 4**: Cutting-edge styling with a custom design system.
+- **Mongoose ODM**: Structured data modeling for products, users, and orders.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Database**: [MongoDB](https://www.mongodb.com/) / [Mongoose](https://mongoosejs.com/)
+- **Auth**: [NextAuth.js](https://next-auth.js.org/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Maps**: [React Leaflet](https://react-leaflet.js.org/)
