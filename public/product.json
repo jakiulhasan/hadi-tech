@@ -142,6 +142,36 @@
               "stars": 3
             }
           ]
+        },
+        {
+          "id": "de-06",
+          "name": "Test Product",
+          "description": "Test Full Description",
+          "short_description": "Test Short Desc",
+          "price": 999,
+          "rating": 0,
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+          "seller_details": {
+            "name": "Admin User",
+            "location": "Dhaka",
+            "warranty": "No Warranty"
+          },
+          "reviews": []
+        },
+        {
+          "id": "de-07",
+          "name": "Test Product",
+          "description": "Test Full Description",
+          "short_description": "Test Short Desc",
+          "price": 999,
+          "rating": 0,
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+          "seller_details": {
+            "name": "Admin User",
+            "location": "Dhaka",
+            "warranty": "No Warranty"
+          },
+          "reviews": []
         }
       ]
     },
