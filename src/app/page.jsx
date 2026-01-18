@@ -1,6 +1,7 @@
 import Notice from "@/components/common/Notice";
 import Banner from "@/components/layout/Banner";
 import FeaturedCategories from "@/components/layout/FeaturedCategories";
+import FeaturedProducts from "@/components/layout/FeaturedProducts";
 import Navbar from "@/components/layout/Navbar";
 import ServiceSection from "@/components/layout/ServiceSection";
 import React from "react";
@@ -13,6 +14,7 @@ const page = () => {
       <Notice></Notice>
       <ServiceSection></ServiceSection>
       <FeaturedCategories></FeaturedCategories>
+      <FeaturedProducts></FeaturedProducts>
     </div>
   );
 };
