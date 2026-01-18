@@ -5,6 +5,7 @@ import FeaturedProducts from "@/components/layout/FeaturedProducts";
 import Navbar from "@/components/layout/Navbar";
 import ServiceSection from "@/components/layout/ServiceSection";
 import StoreMap from "@/components/layout/StoreMap";
+import TechVibeNewsletter from "@/components/layout/TechVibeNewsletter";
 import React from "react";
 
 const page = () => {
@@ -17,6 +18,7 @@ const page = () => {
       <FeaturedCategories></FeaturedCategories>
       <FeaturedProducts></FeaturedProducts>
       <StoreMap></StoreMap>
+      <TechVibeNewsletter></TechVibeNewsletter>
     </div>
   );
 };

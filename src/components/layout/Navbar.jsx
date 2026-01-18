@@ -3,7 +3,7 @@ import TopNav from "../common/TopNav";
 
 const Navbar = () => {
   return (
-    <header className="sticky top-0 z-50">
+    <header className="sticky top-0 z-5000">
       <TopNav />
       <SecondNav />
     </header>
