@@ -2,6 +2,7 @@ import Notice from "@/components/common/Notice";
 import Banner from "@/components/layout/Banner";
 import FeaturedCategories from "@/components/layout/FeaturedCategories";
 import FeaturedProducts from "@/components/layout/FeaturedProducts";
+import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import ServiceSection from "@/components/layout/ServiceSection";
 import StoreMap from "@/components/layout/StoreMap";
@@ -19,6 +20,7 @@ const page = () => {
       <FeaturedProducts></FeaturedProducts>
       <StoreMap></StoreMap>
       <TechVibeNewsletter></TechVibeNewsletter>
+      <Footer></Footer>
     </div>
   );
 };
