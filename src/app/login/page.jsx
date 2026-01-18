@@ -41,7 +41,7 @@ const LoginPage = () => {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       <Navbar />
-      <div className="flex-grow flex items-center justify-center py-12 px-4 shadow-sm">
+      <div className="grow flex items-center justify-center py-12 px-4 shadow-sm">
         <div className="max-w-md w-full">
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 p-8">
             <div className="text-center mb-10">
@@ -119,7 +119,7 @@ const LoginPage = () => {
 
               <div className="text-center">
                 <p className="text-sm text-slate-500">
-                  Don't have an account?{" "}
+                  Don&apos;t have an account?{" "}
                   <Link
                     href="/register"
                     className="text-orange-600 font-bold hover:underline inline-flex items-center gap-1"

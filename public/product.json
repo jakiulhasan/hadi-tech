@@ -193,7 +193,11 @@
               "comment": "Colors pop on this screen.",
               "stars": 5
             },
-            { "user": "Nitu", "comment": "Keyboard feels premium.", "stars": 4 }
+            {
+              "user": "Nitu",
+              "comment": "Keyboard feels premium.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -272,7 +276,11 @@
               "comment": "No visible trackpad is cool.",
               "stars": 5
             },
-            { "user": "Jamil", "comment": "Needs more ports.", "stars": 4 }
+            {
+              "user": "Jamil",
+              "comment": "Needs more ports.",
+              "stars": 4
+            }
           ]
         }
       ]
@@ -299,7 +307,11 @@
               "comment": "Pure power. 4K 144Hz easy.",
               "stars": 5
             },
-            { "user": "Rony", "comment": "Requires a massive PSU.", "stars": 4 }
+            {
+              "user": "Rony",
+              "comment": "Requires a massive PSU.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -368,7 +380,11 @@
             "warranty": "Lifetime"
           },
           "reviews": [
-            { "user": "Javed", "comment": "RGB looks beautiful.", "stars": 5 },
+            {
+              "user": "Javed",
+              "comment": "RGB looks beautiful.",
+              "stars": 5
+            },
             {
               "user": "Pavel",
               "comment": "XMP profile worked first try.",
@@ -390,7 +406,11 @@
             "warranty": "3 Years"
           },
           "reviews": [
-            { "user": "Adnan", "comment": "Tons of M.2 slots.", "stars": 5 },
+            {
+              "user": "Adnan",
+              "comment": "Tons of M.2 slots.",
+              "stars": 5
+            },
             {
               "user": "Rifat",
               "comment": "BIOS is very user friendly.",
@@ -474,7 +494,11 @@
               "comment": "Immersive experience for racing games.",
               "stars": 5
             },
-            { "user": "Mimi", "comment": "Requires a large desk.", "stars": 4 }
+            {
+              "user": "Mimi",
+              "comment": "Requires a large desk.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -548,7 +572,11 @@
             "warranty": "10 Years"
           },
           "reviews": [
-            { "user": "Tushar", "comment": "Reliable and silent.", "stars": 5 },
+            {
+              "user": "Tushar",
+              "comment": "Reliable and silent.",
+              "stars": 5
+            },
             {
               "user": "Rubel",
               "comment": "White cables look great.",
@@ -627,7 +655,11 @@
               "comment": "Charges my phone 4 times.",
               "stars": 5
             },
-            { "user": "Mitu", "comment": "Heavy but very durable.", "stars": 4 }
+            {
+              "user": "Mitu",
+              "comment": "Heavy but very durable.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -675,7 +707,11 @@
             "warranty": "1 Year"
           },
           "reviews": [
-            { "user": "Rafi", "comment": "Camera is incredible.", "stars": 5 },
+            {
+              "user": "Rafi",
+              "comment": "Camera is incredible.",
+              "stars": 5
+            },
             {
               "user": "Nora",
               "comment": "Titanium feels so light.",
@@ -697,7 +733,11 @@
             "warranty": "1 Year"
           },
           "reviews": [
-            { "user": "Arif", "comment": "The zoom is unmatched.", "stars": 5 },
+            {
+              "user": "Arif",
+              "comment": "The zoom is unmatched.",
+              "stars": 5
+            },
             {
               "user": "Samiha",
               "comment": "Great screen and battery life.",
@@ -745,7 +785,11 @@
             "warranty": "1 Year"
           },
           "reviews": [
-            { "user": "Pappu", "comment": "Super fast charging!", "stars": 5 },
+            {
+              "user": "Pappu",
+              "comment": "Super fast charging!",
+              "stars": 5
+            },
             {
               "user": "Aysha",
               "comment": "OxygenOS is very clean.",
@@ -829,7 +873,11 @@
               "comment": "Watching movies is like a cinema.",
               "stars": 5
             },
-            { "user": "Omi", "comment": "Great for multitasking.", "stars": 4 }
+            {
+              "user": "Omi",
+              "comment": "Great for multitasking.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -877,7 +925,11 @@
               "comment": "Great balance of price and power.",
               "stars": 5
             },
-            { "user": "Sumi", "comment": "Touch ID works great.", "stars": 4 }
+            {
+              "user": "Sumi",
+              "comment": "Touch ID works great.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -899,7 +951,11 @@
               "comment": "Best tablet at this price.",
               "stars": 5
             },
-            { "user": "Shuvo", "comment": "Screen is very smooth.", "stars": 4 }
+            {
+              "user": "Shuvo",
+              "comment": "Screen is very smooth.",
+              "stars": 4
+            }
           ]
         }
       ]
@@ -947,7 +1003,11 @@
             "warranty": "12 Years"
           },
           "reviews": [
-            { "user": "Shafin", "comment": "Back pain is gone.", "stars": 5 },
+            {
+              "user": "Shafin",
+              "comment": "Back pain is gone.",
+              "stars": 5
+            },
             {
               "user": "Rifat",
               "comment": "Very expensive but worth it.",
@@ -974,7 +1034,11 @@
               "comment": "Thumb wheel is a game changer.",
               "stars": 5
             },
-            { "user": "Sajib", "comment": "Feels very ergonomic.", "stars": 5 }
+            {
+              "user": "Sajib",
+              "comment": "Feels very ergonomic.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -991,8 +1055,16 @@
             "warranty": "1 Year"
           },
           "reviews": [
-            { "user": "Sumit", "comment": "Does the job well.", "stars": 4 },
-            { "user": "Tariq", "comment": "A bit noisy.", "stars": 3 }
+            {
+              "user": "Sumit",
+              "comment": "Does the job well.",
+              "stars": 4
+            },
+            {
+              "user": "Tariq",
+              "comment": "A bit noisy.",
+              "stars": 3
+            }
           ]
         },
         {
@@ -1097,7 +1169,11 @@
               "comment": "Easy to fly for beginners.",
               "stars": 5
             },
-            { "user": "Rafi", "comment": "Very stable in wind.", "stars": 5 }
+            {
+              "user": "Rafi",
+              "comment": "Very stable in wind.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -1119,7 +1195,11 @@
               "comment": "Stabilization is top notch.",
               "stars": 5
             },
-            { "user": "Fahad", "comment": "Perfect for vloggers.", "stars": 4 }
+            {
+              "user": "Fahad",
+              "comment": "Perfect for vloggers.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -1172,7 +1252,11 @@
               "comment": "Clear footage at night.",
               "stars": 4
             },
-            { "user": "Jamil", "comment": "Installation was easy.", "stars": 4 }
+            {
+              "user": "Jamil",
+              "comment": "Installation was easy.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -1194,7 +1278,11 @@
               "comment": "Great for monitoring baby.",
               "stars": 5
             },
-            { "user": "Sami", "comment": "App is very responsive.", "stars": 5 }
+            {
+              "user": "Sami",
+              "comment": "App is very responsive.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -1242,7 +1330,11 @@
               "comment": "Motion alerts are fast.",
               "stars": 4
             },
-            { "user": "Mimi", "comment": "Batter life is good.", "stars": 4 }
+            {
+              "user": "Mimi",
+              "comment": "Batter life is good.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -1259,7 +1351,11 @@
             "warranty": "1 Year"
           },
           "reviews": [
-            { "user": "Nabil", "comment": "Zero wiring needed.", "stars": 5 },
+            {
+              "user": "Nabil",
+              "comment": "Zero wiring needed.",
+              "stars": 5
+            },
             {
               "user": "Anik",
               "comment": "Solar charging works well even in clouds.",
@@ -1291,7 +1387,11 @@
               "comment": "Range is very impressive.",
               "stars": 5
             },
-            { "user": "Sakib", "comment": "Setup was a breeze.", "stars": 5 }
+            {
+              "user": "Sakib",
+              "comment": "Setup was a breeze.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -1313,7 +1413,11 @@
               "comment": "No more dead spots in my house.",
               "stars": 5
             },
-            { "user": "Riaz", "comment": "Very stable connection.", "stars": 5 }
+            {
+              "user": "Riaz",
+              "comment": "Very stable connection.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -1335,7 +1439,11 @@
               "comment": "Plug and play, works fine.",
               "stars": 4
             },
-            { "user": "Munna", "comment": "Small and metal body.", "stars": 5 }
+            {
+              "user": "Munna",
+              "comment": "Small and metal body.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -1414,7 +1522,11 @@
               "comment": "Official key, no issues.",
               "stars": 5
             },
-            { "user": "Rana", "comment": "Activation was quick.", "stars": 5 }
+            {
+              "user": "Rana",
+              "comment": "Activation was quick.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -1436,7 +1548,11 @@
               "comment": "Better than monthly subs.",
               "stars": 5
             },
-            { "user": "Tania", "comment": "Essential for work.", "stars": 5 }
+            {
+              "user": "Tania",
+              "comment": "Essential for work.",
+              "stars": 5
+            }
           ]
         },
         {
@@ -1453,7 +1569,11 @@
             "warranty": "1 Year"
           },
           "reviews": [
-            { "user": "Anis", "comment": "Every tool I need.", "stars": 5 },
+            {
+              "user": "Anis",
+              "comment": "Every tool I need.",
+              "stars": 5
+            },
             {
               "user": "Farid",
               "comment": "A bit pricey for individuals.",
@@ -1558,8 +1678,16 @@
             "warranty": "5 Years"
           },
           "reviews": [
-            { "user": "Pavel", "comment": "Reliable and quiet.", "stars": 5 },
-            { "user": "Adnan", "comment": "Runs cool in my NAS.", "stars": 4 }
+            {
+              "user": "Pavel",
+              "comment": "Reliable and quiet.",
+              "stars": 5
+            },
+            {
+              "user": "Adnan",
+              "comment": "Runs cool in my NAS.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -1628,8 +1756,16 @@
             "warranty": "3 Years"
           },
           "reviews": [
-            { "user": "Shuvo", "comment": "Good value for money.", "stars": 5 },
-            { "user": "Asif", "comment": "Quiet performance.", "stars": 4 }
+            {
+              "user": "Shuvo",
+              "comment": "Good value for money.",
+              "stars": 5
+            },
+            {
+              "user": "Asif",
+              "comment": "Quiet performance.",
+              "stars": 4
+            }
           ]
         }
       ]
@@ -1703,7 +1839,11 @@
             "warranty": "1 Year"
           },
           "reviews": [
-            { "user": "Sami", "comment": "My voice sounds crisp.", "stars": 5 },
+            {
+              "user": "Sami",
+              "comment": "My voice sounds crisp.",
+              "stars": 5
+            },
             {
               "user": "Anik",
               "comment": "Tap-to-mute is very handy.",
@@ -1730,7 +1870,11 @@
               "comment": "Great for meetings and vlogging.",
               "stars": 4
             },
-            { "user": "Tariq", "comment": "Autofocus is fast.", "stars": 4 }
+            {
+              "user": "Tariq",
+              "comment": "Autofocus is fast.",
+              "stars": 4
+            }
           ]
         },
         {
@@ -1752,7 +1896,11 @@
               "comment": "Increased my productivity 10x.",
               "stars": 5
             },
-            { "user": "Joy", "comment": "Must have for streamers.", "stars": 5 }
+            {
+              "user": "Joy",
+              "comment": "Must have for streamers.",
+              "stars": 5
+            }
           ]
         }
       ]

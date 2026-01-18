@@ -5,11 +5,22 @@ import { useSession, signOut } from "next-auth/react";
 import Link from "next/link";
 import { useState } from "react";
 import Modal from "./Modal";
+import { useRouter } from "next/navigation";
+import { motion, AnimatePresence } from "framer-motion";
 
 const TopNav = () => {
   const { data: session, status } = useSession();
   const [isOffersOpen, setIsOffersOpen] = useState(false);
   const [isHappyHourOpen, setIsHappyHourOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const router = useRouter();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
   return (
     <nav className="bg-[#081621]">
       <div className=" max-w-7xl mx-auto text-white py-4 px-4 flex items-center justify-between gap-4">
@@ -19,17 +30,38 @@ const TopNav = () => {
         </div>
 
         {/* Search Bar */}
-        <div className="hidden md:flex grow max-w-2xl relative">
+        <form
+          onSubmit={handleSearch}
+          className="hidden md:flex grow max-w-2xl relative items-center"
+        >
           <input
             type="text"
             placeholder="Search"
-            className="w-full py-2 px-4 rounded-md bg-white text-black focus:outline-none"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full py-2 px-4 pr-32 rounded-md bg-white text-black focus:outline-none placeholder:text-gray-400"
           />
-          <Search
-            className="absolute right-3 top-2.5 text-gray-500 cursor-pointer"
-            size={20}
-          />
-        </div>
+          <div className="absolute right-3 flex items-center gap-3">
+            <AnimatePresence>
+              {searchQuery.length > 0 && (
+                <motion.span
+                  initial={{ opacity: 0, x: 10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: 10 }}
+                  className="text-[10px] font-bold text-gray-400 uppercase tracking-tight line-clamp-1 pointer-events-none"
+                >
+                  Press Enter
+                </motion.span>
+              )}
+            </AnimatePresence>
+            <button
+              type="submit"
+              className="text-gray-500 hover:text-orange-500 transition-colors"
+            >
+              <Search size={18} />
+            </button>
+          </div>
+        </form>
 
         {/* Action Icons */}
         <div className="flex items-center gap-6">
