@@ -9,7 +9,10 @@ const FeaturedProducts = () => {
     fetch("/product.json")
       .then((res) => res.json())
       .then((data) => {
-        const featured = data.products_database.map((cat) => cat.products[0]);
+        const featured = data.products_database.map((cat) => ({
+          ...cat.products[0],
+          category: cat.category,
+        }));
         setProducts(featured);
       })
       .catch((err) => console.error("Error loading products:", err));

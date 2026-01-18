@@ -26,7 +26,9 @@ const CategoryPage = () => {
             .then((res) => res.json())
             .then((data) => {
                 if (slug === "all") {
-                    const allProducts = data.products_database.flatMap((cat) => cat.products);
+                    const allProducts = data.products_database.flatMap((cat) =>
+                        cat.products.map((p) => ({ ...p, category: cat.category }))
+                    );
                     setProducts(allProducts);
                     setCategoryTitle("All Categories");
                 } else {
@@ -34,7 +36,11 @@ const CategoryPage = () => {
                         (cat) => createSlug(cat.category) === slug
                     );
                     if (categoryData) {
-                        setProducts(categoryData.products);
+                        const categorizedProducts = categoryData.products.map((p) => ({
+                            ...p,
+                            category: categoryData.category,
+                        }));
+                        setProducts(categorizedProducts);
                         setCategoryTitle(categoryData.category);
                     } else {
                         setProducts([]);
