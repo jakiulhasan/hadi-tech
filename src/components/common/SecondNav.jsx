@@ -3,7 +3,18 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+// Robust slugification: "Server & Storage" -> "server-and-storage"
+const createSlug = (text) => {
+  return text
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+};
+
 const categories = [
+  "All",
   "Desktop",
   "Laptop",
   "Component",
@@ -27,19 +38,22 @@ const SecondNav = () => {
   return (
     <div className="shadow-sm border-b bg-white hidden xl:block">
       <div className="max-w-7xl mx-auto px-4">
-        <ul className="flex items-center justify-start lg:justify-center gap-4 py-3 px-4 text-[12px] font-bold uppercase">
+        <ul className="flex items-center justify-start lg:justify-center gap-3 py-3 px-4 text-[12px] font-bold uppercase">
           {categories.map((item) => {
-            const slug = item.toLowerCase();
-            const isActive = pathname === `/category/${slug}`;
+            const slug = createSlug(item);
+            const isActive =
+              pathname === `/category/${slug}` ||
+              (item === "All" && pathname === "/category/all");
 
             return (
               <li key={item} className="shrink-0">
                 <Link
                   href={`/category/${slug}`}
-                  className={`transition-colors font-bold ${isActive
+                  className={`transition-colors font-bold ${
+                    isActive
                       ? "text-orange-600 border-b-2 border-orange-600 pb-1"
                       : "text-gray-800 hover:text-orange-600"
-                    }`}
+                  }`}
                 >
                   {item}
                 </Link>

@@ -1,9 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function HadiTechLogo() {
   return (
-    <div className="flex items-center justify-center bg-[#0b1220]">
+    <Link href="/" className="flex items-center justify-center bg-[#0b1220]">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -37,6 +38,6 @@ export default function HadiTechLogo() {
           className="w-2 h-2 rounded-full bg-blue-400 ml-1"
         />
       </motion.div>
-    </div>
+    </Link>
   );
 }
