@@ -5,9 +5,8 @@ import FeaturedProducts from "@/components/layout/FeaturedProducts";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import ServiceSection from "@/components/layout/ServiceSection";
-import StoreMap from "@/components/layout/StoreMap";
 import TechVibeNewsletter from "@/components/layout/TechVibeNewsletter";
-import React from "react";
+import ClientStoreMap from "@/components/layout/ClientStoreMap";
 
 const page = () => {
   return (
@@ -18,7 +17,7 @@ const page = () => {
       <ServiceSection></ServiceSection>
       <FeaturedCategories></FeaturedCategories>
       <FeaturedProducts></FeaturedProducts>
-      <StoreMap></StoreMap>
+      <ClientStoreMap></ClientStoreMap>
       <TechVibeNewsletter></TechVibeNewsletter>
       <Footer></Footer>
     </div>

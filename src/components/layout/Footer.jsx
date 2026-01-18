@@ -51,7 +51,7 @@ const Footer = () => {
                 <Cpu className="text-white" size={24} />
               </div>
               <span className="text-2xl font-bold text-white tracking-tight">
-                HADI<span className="text-orange-600">VIBE</span>
+                HADI<span className="text-orange-600">TECH</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400">
