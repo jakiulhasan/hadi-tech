@@ -11,8 +11,6 @@ import {
   MessageSquare,
 } from "lucide-react";
 
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 
 const ProductDetailsPage = () => {
   const { slug, id } = useParams();
@@ -50,7 +48,7 @@ const ProductDetailsPage = () => {
   if (!product) {
     return (
       <div className="min-h-screen flex flex-col">
-        <div className="flex-grow flex items-center justify-center">
+        <div className="grow flex items-center justify-center">
           <div className="text-center">
             <h2 className="text-2xl font-semibold text-slate-800">
               Product not found
@@ -66,12 +64,12 @@ const ProductDetailsPage = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen flex flex-col">
-      <main className="flex-grow py-12">
+      <main className="grow py-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="bg-white rounded-3xl shadow-sm overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               {/* Product Image */}
-              <div className="relative h-[400px] lg:h-[600px] bg-slate-100">
+              <div className="relative h-100 lg:h-125 bg-slate-100">
                 <Image
                   src={product.image}
                   alt={product.name}
@@ -166,11 +164,11 @@ const ProductDetailsPage = () => {
 
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 mt-auto">
-                  <button className="flex-grow py-4 bg-orange-600 text-white rounded-2xl font-bold hover:bg-orange-700 transition-all flex items-center justify-center gap-3 shadow-lg shadow-orange-200">
+                  <button className="grow py-4 bg-orange-600 text-white rounded-2xl font-bold hover:bg-orange-700 transition-all flex items-center justify-center gap-3 shadow-lg shadow-orange-200">
                     <ShoppingCart size={20} />
                     Add to Cart
                   </button>
-                  <button className="flex-grow py-4 bg-slate-900 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-3">
+                  <button className="grow py-4 bg-slate-900 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-3">
                     Buy Now
                   </button>
                 </div>
