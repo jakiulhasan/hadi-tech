@@ -11,7 +11,6 @@ import {
   MessageSquare,
 } from "lucide-react";
 
-
 const ProductDetailsPage = () => {
   const { slug, id } = useParams();
   const [product, setProduct] = useState(null);

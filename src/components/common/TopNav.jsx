@@ -3,9 +3,13 @@ import { Search, Gift, Zap, User, LogOut } from "lucide-react";
 import HadiTechLogo from "./HadiTechLogo";
 import { useSession, signOut } from "next-auth/react";
 import Link from "next/link";
+import { useState } from "react";
+import Modal from "./Modal";
 
 const TopNav = () => {
   const { data: session, status } = useSession();
+  const [isOffersOpen, setIsOffersOpen] = useState(false);
+  const [isHappyHourOpen, setIsHappyHourOpen] = useState(false);
   return (
     <nav className="bg-[#081621]">
       <div className=" max-w-7xl mx-auto text-white py-4 px-4 flex items-center justify-between gap-4">
@@ -29,7 +33,10 @@ const TopNav = () => {
 
         {/* Action Icons */}
         <div className="flex items-center gap-6">
-          <div className="hidden lg:flex items-center gap-2 cursor-pointer group">
+          <div
+            onClick={() => setIsOffersOpen(true)}
+            className="hidden lg:flex items-center gap-2 cursor-pointer group"
+          >
             <Gift className="text-orange-500 group-hover:text-white transition" />
             <div>
               <p className="text-sm font-semibold">Offers</p>
@@ -37,7 +44,10 @@ const TopNav = () => {
             </div>
           </div>
 
-          <div className="hidden lg:flex items-center gap-2 cursor-pointer group">
+          <div
+            onClick={() => setIsHappyHourOpen(true)}
+            className="hidden lg:flex items-center gap-2 cursor-pointer group"
+          >
             <Zap className="text-orange-500 group-hover:text-white transition animate-pulse" />
             <div>
               <p className="text-sm font-semibold">Happy Hour</p>
@@ -100,6 +110,47 @@ const TopNav = () => {
           </button>
         </div>
       </div>
+      {/* Modals */}
+      <Modal
+        isOpen={isOffersOpen}
+        onClose={() => setIsOffersOpen(false)}
+        title="Latest Offers"
+      >
+        <div className="space-y-4">
+          <div className="p-4 bg-orange-50 border border-orange-100 rounded-2xl">
+            <h4 className="font-bold text-orange-600 mb-1">Mega Winter Sale!</h4>
+            <p className="text-sm text-slate-600">Get up to 40% off on all components and peripherals.</p>
+          </div>
+          <div className="p-4 bg-blue-50 border border-blue-100 rounded-2xl">
+            <h4 className="font-bold text-blue-600 mb-1">Student Discount</h4>
+            <p className="text-sm text-slate-600">Show your student ID and get an extra 5% discount.</p>
+          </div>
+          <button className="w-full py-3 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition-all">
+            View All Offers
+          </button>
+        </div>
+      </Modal>
+
+      <Modal
+        isOpen={isHappyHourOpen}
+        onClose={() => setIsHappyHourOpen(false)}
+        title="Happy Hour Deals"
+      >
+        <div className="text-center space-y-6">
+          <div className="relative w-24 h-24 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto animate-bounce">
+            <Zap size={48} />
+          </div>
+          <div>
+            <h4 className="text-2xl font-bold text-slate-900">Flash Sale is ON!</h4>
+            <p className="text-slate-500 mt-1">Starting from 2:00 PM - 5:00 PM today.</p>
+          </div>
+          <div className="bg-slate-50 p-6 rounded-2xl border-2 border-dashed border-slate-200">
+            <p className="text-xs font-bold text-slate-400 uppercase mb-2">Your Secret Coupon</p>
+            <p className="text-3xl font-black text-slate-900 tracking-widest uppercase">HAPPY50</p>
+          </div>
+          <p className="text-sm text-slate-400 italic font-medium">* Valid for first 50 customers only.</p>
+        </div>
+      </Modal>
     </nav>
   );
 };
