@@ -1,5 +1,6 @@
 import Notice from "@/components/common/Notice";
 import Banner from "@/components/layout/Banner";
+import FeaturedCategories from "@/components/layout/FeaturedCategories";
 import Navbar from "@/components/layout/Navbar";
 import ServiceSection from "@/components/layout/ServiceSection";
 import React from "react";
@@ -11,6 +12,7 @@ const page = () => {
       <Banner></Banner>
       <Notice></Notice>
       <ServiceSection></ServiceSection>
+      <FeaturedCategories></FeaturedCategories>
     </div>
   );
 };

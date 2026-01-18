@@ -1,0 +1,1896 @@
+{
+  "products_database": [
+    {
+      "category": "Desktop",
+      "products": [
+        {
+          "id": "dk-01",
+          "name": "ROG Strix G15 Gaming Desktop",
+          "description": "NVIDIA RTX 3070, 16GB RAM, 1TB SSD. Built for high-end gaming and seamless multitasking with a transparent side panel.",
+          "short_description": "Elite Gaming Tower",
+          "price": 145000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b",
+          "seller_details": {
+            "name": "Ryans Computers",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Rahat",
+              "comment": "Blazing fast performance!",
+              "stars": 5
+            },
+            {
+              "user": "Tanvir",
+              "comment": "Cooling is amazing even under load.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "dk-02",
+          "name": "Apple iMac M3 (2024)",
+          "description": "24-inch 4.5K Retina display, Apple M3 chip with 8-core CPU and 10-core GPU. Stunningly thin design in 7 vibrant colors.",
+          "short_description": "Stylish All-in-One",
+          "price": 195000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+          "seller_details": {
+            "name": "Executive Machines",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Saira",
+              "comment": "The display is out of this world.",
+              "stars": 5
+            },
+            {
+              "user": "Moin",
+              "comment": "Perfect for my creative studio.",
+              "stars": 5
+            },
+            {
+              "user": "Abid",
+              "comment": "Magic mouse takes time to get used to.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "dk-03",
+          "name": "Dell OptiPlex 7000 Micro",
+          "description": "Ultra-compact business PC with Intel Core i7 12th Gen, 16GB RAM, and 512GB NVMe SSD.",
+          "short_description": "Compact Business PC",
+          "price": 75000,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45",
+          "seller_details": {
+            "name": "Dell Bangladesh",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Zaman",
+              "comment": "Saves so much desk space.",
+              "stars": 5
+            },
+            {
+              "user": "Fahim",
+              "comment": "Good for office work, not for gaming.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "dk-04",
+          "name": "HP Pavilion Desktop TP01",
+          "description": "Reliable desktop for everyday tasks, family use, and home office with brushed silver finish.",
+          "short_description": "Family Everyday PC",
+          "price": 55000,
+          "rating": 4.3,
+          "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Chattogram",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Nasir",
+              "comment": "Decent PC for the price.",
+              "stars": 4
+            },
+            {
+              "user": "Lipa",
+              "comment": "Simple setup, works great for Zoom calls.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "dk-05",
+          "name": "Lenovo IdeaCentre AIO 3",
+          "description": "Sleek design with 27-inch FHD display, Ryzen 5 processor, and Harman Kardon certified speakers.",
+          "short_description": "Minimalist AIO",
+          "price": 88000,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1517059224940-d4af9eec41b7",
+          "seller_details": {
+            "name": "Lenovo Store",
+            "location": "Sylhet",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Hasan",
+              "comment": "Large screen is great for movies.",
+              "stars": 5
+            },
+            {
+              "user": "Rina",
+              "comment": "Very elegant looking on my desk.",
+              "stars": 4
+            },
+            {
+              "user": "Joy",
+              "comment": "Webcam quality is average.",
+              "stars": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Laptop",
+      "products": [
+        {
+          "id": "lp-01",
+          "name": "MacBook Air M2",
+          "description": "Thin, light, and powerful with 18-hour battery life and Liquid Retina display.",
+          "short_description": "Portable Powerhouse",
+          "price": 118000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e5239",
+          "seller_details": {
+            "name": "Gadget & Gear",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Sami",
+              "comment": "Battery life is legendary.",
+              "stars": 5
+            },
+            {
+              "user": "Anik",
+              "comment": "Very lightweight for travel.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "lp-02",
+          "name": "ASUS Zenbook 14 OLED",
+          "description": "Stunning 2.8K OLED display with Intel Evo i7 processor and high-capacity battery.",
+          "short_description": "Stunning OLED Display",
+          "price": 135000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+          "seller_details": {
+            "name": "Global Brand",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Imran",
+              "comment": "Colors pop on this screen.",
+              "stars": 5
+            },
+            { "user": "Nitu", "comment": "Keyboard feels premium.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "lp-03",
+          "name": "HP Spectre x360",
+          "description": "2-in-1 convertible laptop with touch screen, stylus, and gem-cut design.",
+          "short_description": "Premium 2-in-1",
+          "price": 165000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1544006659-f0b21f04cb1d",
+          "seller_details": {
+            "name": "HP World",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Sakib",
+              "comment": "Most beautiful laptop I've owned.",
+              "stars": 5
+            },
+            {
+              "user": "Sumaiya",
+              "comment": "Touch response is very fluid.",
+              "stars": 5
+            },
+            {
+              "user": "Karim",
+              "comment": "A bit expensive but worth it.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "lp-04",
+          "name": "Lenovo Legion 5i Pro",
+          "description": "High-refresh rate gaming laptop with RTX 4060 graphics and QHD+ display.",
+          "short_description": "Hardcore Gaming Laptop",
+          "price": 175000,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Zubair",
+              "comment": "Handles Cyberpunk with ease.",
+              "stars": 5
+            },
+            {
+              "user": "Asif",
+              "comment": "Heats up a bit, but fans are quiet.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "lp-05",
+          "name": "Dell XPS 13 Plus",
+          "description": "The most powerful 13-inch laptop in its class with capacitive touch row.",
+          "short_description": "Compact Excellence",
+          "price": 210000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6",
+          "seller_details": {
+            "name": "Dell BD",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Farhan",
+              "comment": "No visible trackpad is cool.",
+              "stars": 5
+            },
+            { "user": "Jamil", "comment": "Needs more ports.", "stars": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Component",
+      "products": [
+        {
+          "id": "cp-01",
+          "name": "NVIDIA GeForce RTX 4090",
+          "description": "The ultimate GeForce GPU with 24GB G6X memory for extreme 4K gaming.",
+          "short_description": "Ultimate GPU",
+          "price": 240000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Emon",
+              "comment": "Pure power. 4K 144Hz easy.",
+              "stars": 5
+            },
+            { "user": "Rony", "comment": "Requires a massive PSU.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "cp-02",
+          "name": "Intel Core i9-14900K",
+          "description": "24 cores and 32 threads for extreme gaming and multitasking up to 6GHz.",
+          "short_description": "Top-Tier CPU",
+          "price": 68000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Rafat",
+              "comment": "Crushes rendering tasks.",
+              "stars": 5
+            },
+            {
+              "user": "Tarek",
+              "comment": "Runs very hot, need AIO.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "cp-03",
+          "name": "Samsung 990 Pro 2TB SSD",
+          "description": "Sequential read/write speeds up to 7,450/6,900 MB/s with PCIe 4.0 interface.",
+          "short_description": "Blazing Fast Storage",
+          "price": 22000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1562976540-150ad009353e",
+          "seller_details": {
+            "name": "TechLand",
+            "location": "Dhaka",
+            "warranty": "5 Years"
+          },
+          "reviews": [
+            {
+              "user": "Saif",
+              "comment": "Windows boots in seconds.",
+              "stars": 5
+            },
+            {
+              "user": "Bappy",
+              "comment": "Best SSD in the market.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "cp-04",
+          "name": "Corsair Dominator Platinum 32GB",
+          "description": "DDR5 6000MHz RAM with customizable RGB lighting and DHX cooling.",
+          "short_description": "High-Speed Memory",
+          "price": 18500,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "Lifetime"
+          },
+          "reviews": [
+            { "user": "Javed", "comment": "RGB looks beautiful.", "stars": 5 },
+            {
+              "user": "Pavel",
+              "comment": "XMP profile worked first try.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "cp-05",
+          "name": "ASUS ROG Maximus Z790",
+          "description": "Premium motherboard with enhanced power delivery and DDR5 support.",
+          "short_description": "Enthusiast Motherboard",
+          "price": 72000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+          "seller_details": {
+            "name": "Global Brand",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            { "user": "Adnan", "comment": "Tons of M.2 slots.", "stars": 5 },
+            {
+              "user": "Rifat",
+              "comment": "BIOS is very user friendly.",
+              "stars": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Monitor",
+      "products": [
+        {
+          "id": "mn-01",
+          "name": "LG UltraGear 27GP850",
+          "description": "27-inch QHD Nano IPS 1ms 165Hz Gaming Monitor with G-Sync compatibility.",
+          "short_description": "Pro Gaming Monitor",
+          "price": 48000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Liton",
+              "comment": "Colors are very accurate.",
+              "stars": 5
+            },
+            {
+              "user": "Shanto",
+              "comment": "Best 1440p monitor for gaming.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "mn-02",
+          "name": "Dell UltraSharp U2723QE",
+          "description": "27-inch 4K USB-C Hub Monitor with IPS Black technology and 98% DCI-P3.",
+          "short_description": "4K Designer Monitor",
+          "price": 65000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Nabil",
+              "comment": "Contrast is much better than normal IPS.",
+              "stars": 5
+            },
+            {
+              "user": "Tania",
+              "comment": "USB-C charging is very handy.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "mn-03",
+          "name": "Samsung Odyssey G9 OLED",
+          "description": "49-inch curved super ultrawide gaming monitor with 0.03ms response time.",
+          "short_description": "Ultra-Wide Experience",
+          "price": 185000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1551645120-d70bfe84c826",
+          "seller_details": {
+            "name": "Samsung BD",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Sajid",
+              "comment": "Immersive experience for racing games.",
+              "stars": 5
+            },
+            { "user": "Mimi", "comment": "Requires a large desk.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "mn-04",
+          "name": "ASUS ProArt PA329C",
+          "description": "32-inch 4K HDR monitor for professional color accuracy with hardware calibration.",
+          "short_description": "Color Accurate Display",
+          "price": 125000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+          "seller_details": {
+            "name": "Global Brand",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Farid",
+              "comment": "Excellent for photo editing.",
+              "stars": 5
+            },
+            {
+              "user": "Zia",
+              "comment": "HDR quality is top notch.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "mn-05",
+          "name": "Gigabyte M27Q",
+          "description": "27-inch 170Hz KVM Gaming Monitor with SuperSpeed IPS panel.",
+          "short_description": "Best Value Gaming",
+          "price": 38000,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1586210579191-33b45e38fa2c",
+          "seller_details": {
+            "name": "TechLand",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Shohag",
+              "comment": "KVM switch works flawlessly.",
+              "stars": 5
+            },
+            {
+              "user": "Munna",
+              "comment": "A bit of backlight bleed.",
+              "stars": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Power",
+      "products": [
+        {
+          "id": "pw-01",
+          "name": "Corsair RM850x White",
+          "description": "850 Watt 80 PLUS Gold Fully Modular Power Supply with low noise fan.",
+          "short_description": "Gold Rated Efficiency",
+          "price": 16500,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "10 Years"
+          },
+          "reviews": [
+            { "user": "Tushar", "comment": "Reliable and silent.", "stars": 5 },
+            {
+              "user": "Rubel",
+              "comment": "White cables look great.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "pw-02",
+          "name": "APC Back-UPS Pro 1500",
+          "description": "High-performance battery backup and surge protector for premium electronics.",
+          "short_description": "Premium UPS Protection",
+          "price": 32000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1626260136208-86877063d12a",
+          "seller_details": {
+            "name": "Smart Technologies",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Imtiaz",
+              "comment": "Gives enough time to save work.",
+              "stars": 5
+            },
+            {
+              "user": "Sayem",
+              "comment": "Display shows useful stats.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "pw-03",
+          "name": "EVGA SuperNOVA 1000 G6",
+          "description": "1000W 80 Plus Gold compact PSU with full modularity and ECO mode.",
+          "short_description": "High Wattage PSU",
+          "price": 22500,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "10 Years"
+          },
+          "reviews": [
+            {
+              "user": "Muntasir",
+              "comment": "Perfect for my RTX 4090.",
+              "stars": 5
+            },
+            {
+              "user": "Nayem",
+              "comment": "Cables are a bit stiff.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "pw-04",
+          "name": "TP-Link Power Bank 20000mAh",
+          "description": "High capacity mobile charger with fast charging and dual USB ports.",
+          "short_description": "Portable Power Bank",
+          "price": 3500,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1609592424109-dd9892f1b17c",
+          "seller_details": {
+            "name": "TP-Link BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Keya",
+              "comment": "Charges my phone 4 times.",
+              "stars": 5
+            },
+            { "user": "Mitu", "comment": "Heavy but very durable.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "pw-05",
+          "name": "Anker 737 Charger (GaNPrime 120W)",
+          "description": "Fast charge 3 devices simultaneously with 120W output and GanPrime tech.",
+          "short_description": "Compact Wall Charger",
+          "price": 8500,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1625603723321-7243914a2757",
+          "seller_details": {
+            "name": "Gadget Studio",
+            "location": "Dhaka",
+            "warranty": "18 Months"
+          },
+          "reviews": [
+            {
+              "user": "Alif",
+              "comment": "Replaced all my other chargers.",
+              "stars": 5
+            },
+            {
+              "user": "Mehedi",
+              "comment": "Compact and super fast.",
+              "stars": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Phone",
+      "products": [
+        {
+          "id": "ph-01",
+          "name": "iPhone 15 Pro Max",
+          "description": "Titanium design, A17 Pro chip, 48MP main camera with 5x Telephoto lens.",
+          "short_description": "Ultimate iPhone",
+          "price": 165000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1696446701796-da61225697cc",
+          "seller_details": {
+            "name": "Apple Gadgets",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            { "user": "Rafi", "comment": "Camera is incredible.", "stars": 5 },
+            {
+              "user": "Nora",
+              "comment": "Titanium feels so light.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "ph-02",
+          "name": "Samsung Galaxy S24 Ultra",
+          "description": "AI-powered camera, Snapdragon 8 Gen 3, and integrated S Pen with Titanium frame.",
+          "short_description": "Android King",
+          "price": 145000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+          "seller_details": {
+            "name": "Samsung BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            { "user": "Arif", "comment": "The zoom is unmatched.", "stars": 5 },
+            {
+              "user": "Samiha",
+              "comment": "Great screen and battery life.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "ph-03",
+          "name": "Google Pixel 8 Pro",
+          "description": "The best of Google AI with advanced camera and Magic Editor features.",
+          "short_description": "Pure Android",
+          "price": 98000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+          "seller_details": {
+            "name": "Pixel Store",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Tanmoy",
+              "comment": "AI features are really useful.",
+              "stars": 4
+            },
+            {
+              "user": "Zia",
+              "comment": "Best photo quality in daylight.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "ph-04",
+          "name": "OnePlus 12",
+          "description": "Smooth performance with Hasselblad Camera, 120Hz AMOLED, and 80W charging.",
+          "short_description": "Fast and Smooth",
+          "price": 85000,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+          "seller_details": {
+            "name": "OnePlus BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            { "user": "Pappu", "comment": "Super fast charging!", "stars": 5 },
+            {
+              "user": "Aysha",
+              "comment": "OxygenOS is very clean.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "ph-05",
+          "name": "Xiaomi 14 Ultra",
+          "description": "Leica optics with 1-inch sensor and high-speed Snapdragon processor.",
+          "short_description": "Camera Master",
+          "price": 120000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48",
+          "seller_details": {
+            "name": "Xiaomi Store",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Kamal",
+              "comment": "Pro grade photography tool.",
+              "stars": 5
+            },
+            {
+              "user": "Shanto",
+              "comment": "Heats up during heavy gaming.",
+              "stars": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Tablet",
+      "products": [
+        {
+          "id": "tb-01",
+          "name": "iPad Pro 12.9 M2",
+          "description": "Liquid Retina XDR display, M2 chip, and Apple Pencil hover support.",
+          "short_description": "Pro Creative Tablet",
+          "price": 145000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+          "seller_details": {
+            "name": "Apple Gadgets",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Mim",
+              "comment": "Perfect for digital art.",
+              "stars": 5
+            },
+            {
+              "user": "Rashed",
+              "comment": "M2 chip is overkill but fast.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "tb-02",
+          "name": "Samsung Galaxy Tab S9 Ultra",
+          "description": "Massive 14.6-inch Dynamic AMOLED 2X display with S Pen included.",
+          "short_description": "Ultimate Media Tablet",
+          "price": 125000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1589739900243-4b123b6675bd",
+          "seller_details": {
+            "name": "Samsung BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Noyon",
+              "comment": "Watching movies is like a cinema.",
+              "stars": 5
+            },
+            { "user": "Omi", "comment": "Great for multitasking.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "tb-03",
+          "name": "Microsoft Surface Pro 9",
+          "description": "The power of a laptop with the flexibility of a tablet, Windows 11.",
+          "short_description": "Productivity Tablet",
+          "price": 135000,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+          "seller_details": {
+            "name": "Custom Mac",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Mahir",
+              "comment": "Best for work on the go.",
+              "stars": 5
+            },
+            {
+              "user": "Nisat",
+              "comment": "Keyboard sold separately is annoying.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "tb-04",
+          "name": "iPad Air M1",
+          "description": "Powerful M1 chip in a thin, light design with 10.9-inch display.",
+          "short_description": "Value Pro Tablet",
+          "price": 72000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+          "seller_details": {
+            "name": "Gadget & Gear",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Pavel",
+              "comment": "Great balance of price and power.",
+              "stars": 5
+            },
+            { "user": "Sumi", "comment": "Touch ID works great.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "tb-05",
+          "name": "Xiaomi Pad 6",
+          "description": "144Hz WQHD+ display, Snapdragon 870, and quad speaker setup.",
+          "short_description": "Budget Performance",
+          "price": 42000,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1611078489935-0cb964de46d6",
+          "seller_details": {
+            "name": "Xiaomi BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Riaz",
+              "comment": "Best tablet at this price.",
+              "stars": 5
+            },
+            { "user": "Shuvo", "comment": "Screen is very smooth.", "stars": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Office Equipment",
+      "products": [
+        {
+          "id": "oe-01",
+          "name": "Epson EcoTank L3210",
+          "description": "All-in-one ink tank printer for low-cost, high-volume printing.",
+          "short_description": "Eco Ink Printer",
+          "price": 18500,
+          "rating": 4.4,
+          "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Kabir",
+              "comment": "Ink lasts a very long time.",
+              "stars": 5
+            },
+            {
+              "user": "Muna",
+              "comment": "Printing speed is decent.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "oe-02",
+          "name": "Herman Miller Aeron Chair",
+          "description": "Ergonomic office chair designed for comfort and health during long work hours.",
+          "short_description": "Premium Office Chair",
+          "price": 145000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
+          "seller_details": {
+            "name": "IKEA BD",
+            "location": "Dhaka",
+            "warranty": "12 Years"
+          },
+          "reviews": [
+            { "user": "Shafin", "comment": "Back pain is gone.", "stars": 5 },
+            {
+              "user": "Rifat",
+              "comment": "Very expensive but worth it.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "oe-03",
+          "name": "Logitech MX Master 3S",
+          "description": "Advanced wireless mouse with silent clicks and 8K DPI tracking.",
+          "short_description": "Best Designer Mouse",
+          "price": 12500,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Zia",
+              "comment": "Thumb wheel is a game changer.",
+              "stars": 5
+            },
+            { "user": "Sajib", "comment": "Feels very ergonomic.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "oe-04",
+          "name": "Deli Paper Shredder",
+          "description": "Cross-cut shredder for secure disposal of office documents.",
+          "short_description": "Security Shredder",
+          "price": 8500,
+          "rating": 4.2,
+          "image": "https://images.unsplash.com/photo-1590650046871-92c887180603",
+          "seller_details": {
+            "name": "TechLand",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            { "user": "Sumit", "comment": "Does the job well.", "stars": 4 },
+            { "user": "Tariq", "comment": "A bit noisy.", "stars": 3 }
+          ]
+        },
+        {
+          "id": "oe-05",
+          "name": "BenQ ScreenBar Halo",
+          "description": "Monitor lamp with auto-dimming and adjustable color temperature.",
+          "short_description": "Desk Eye Care",
+          "price": 15500,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15",
+          "seller_details": {
+            "name": "Gadget Studio",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Nahid",
+              "comment": "No more glare on screen.",
+              "stars": 5
+            },
+            {
+              "user": "Omi",
+              "comment": "Wireless controller is stylish.",
+              "stars": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Camera",
+      "products": [
+        {
+          "id": "cm-01",
+          "name": "Sony A7 IV",
+          "description": "Full-frame mirrorless camera with 33MP sensor and advanced autofocus.",
+          "short_description": "Pro Hybrid Camera",
+          "price": 245000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+          "seller_details": {
+            "name": "Sony BD",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Joy",
+              "comment": "Autofocus is like magic.",
+              "stars": 5
+            },
+            {
+              "user": "Pavel",
+              "comment": "Best camera for both photo and video.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "cm-02",
+          "name": "Canon EOS R6 Mark II",
+          "description": "High-speed mirrorless for action photography and cinematic video.",
+          "short_description": "Action Mirrorless",
+          "price": 235000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd",
+          "seller_details": {
+            "name": "Canon Store",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Mehedi",
+              "comment": "Incredible low light performance.",
+              "stars": 5
+            },
+            {
+              "user": "Arif",
+              "comment": "Dual pixel AF is reliable.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "cm-03",
+          "name": "DJI Mini 4 Pro",
+          "description": "Sub-249g drone with 4K/60fps HDR video and omnidirectional sensing.",
+          "short_description": "Mini Drone",
+          "price": 115000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Sajid",
+              "comment": "Easy to fly for beginners.",
+              "stars": 5
+            },
+            { "user": "Rafi", "comment": "Very stable in wind.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "cm-04",
+          "name": "GoPro Hero 12 Black",
+          "description": "Rugged action camera with improved battery life and 5.3K video.",
+          "short_description": "Action Camera",
+          "price": 45000,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1524143909187-af99f8177659",
+          "seller_details": {
+            "name": "Gadget Studio",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Nora",
+              "comment": "Stabilization is top notch.",
+              "stars": 5
+            },
+            { "user": "Fahad", "comment": "Perfect for vloggers.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "cm-05",
+          "name": "Fujifilm X-T5",
+          "description": "40MP APS-C mirrorless camera with retro design and film simulations.",
+          "short_description": "Retro Enthusiast",
+          "price": 175000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c",
+          "seller_details": {
+            "name": "Fujifilm BD",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Shuvo",
+              "comment": "Beautiful jpegs straight from camera.",
+              "stars": 5
+            },
+            {
+              "user": "Tania",
+              "comment": "Feels solid and premium.",
+              "stars": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Security",
+      "products": [
+        {
+          "id": "sc-01",
+          "name": "Hikvision 4-Cam Kit",
+          "description": "Full HD security camera system with night vision and DVR.",
+          "short_description": "Complete Security Kit",
+          "price": 15500,
+          "rating": 4.3,
+          "image": "https://images.unsplash.com/photo-1557597774-9d2739f85a76",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Salam",
+              "comment": "Clear footage at night.",
+              "stars": 4
+            },
+            { "user": "Jamil", "comment": "Installation was easy.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "sc-02",
+          "name": "TP-Link Tapo C200",
+          "description": "Pan/Tilt home security Wi-Fi camera with two-way audio.",
+          "short_description": "Smart Indoor Cam",
+          "price": 3200,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Runa",
+              "comment": "Great for monitoring baby.",
+              "stars": 5
+            },
+            { "user": "Sami", "comment": "App is very responsive.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "sc-03",
+          "name": "Xiaomi Smart Door Lock",
+          "description": "Biometric fingerprint door lock with Bluetooth and NFC support.",
+          "short_description": "Fingerprint Lock",
+          "price": 18500,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1558002038-103792e07927",
+          "seller_details": {
+            "name": "Xiaomi BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Karim",
+              "comment": "No more carrying keys!",
+              "stars": 5
+            },
+            {
+              "user": "Abid",
+              "comment": "Installation needs a professional.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "sc-04",
+          "name": "Ring Video Doorbell",
+          "description": "See, hear, and speak to visitors from your phone or tablet.",
+          "short_description": "Smart Doorbell",
+          "price": 12000,
+          "rating": 4.4,
+          "image": "https://images.unsplash.com/photo-1557597774-9d2739f85a76",
+          "seller_details": {
+            "name": "Gadget Studio",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Lipa",
+              "comment": "Motion alerts are fast.",
+              "stars": 4
+            },
+            { "user": "Mimi", "comment": "Batter life is good.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "sc-05",
+          "name": "Eufy SoloCam S40",
+          "description": "Solar powered security camera with built-in AI and 2K resolution.",
+          "short_description": "Solar Security Cam",
+          "price": 22000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1590856029826-c7a73142bbf1",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            { "user": "Nabil", "comment": "Zero wiring needed.", "stars": 5 },
+            {
+              "user": "Anik",
+              "comment": "Solar charging works well even in clouds.",
+              "stars": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Networking",
+      "products": [
+        {
+          "id": "nt-01",
+          "name": "TP-Link Archer AX73",
+          "description": "AX5400 Dual-Band Gigabit Wi-Fi 6 Router with 6 antennas.",
+          "short_description": "Powerful WiFi 6",
+          "price": 12500,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+          "seller_details": {
+            "name": "TP-Link BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Tanvir",
+              "comment": "Range is very impressive.",
+              "stars": 5
+            },
+            { "user": "Sakib", "comment": "Setup was a breeze.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "nt-02",
+          "name": "Netgear Orbi Mesh WiFi",
+          "description": "Tri-band mesh system for whole home WiFi coverage up to 5000 sq ft.",
+          "short_description": "Mesh WiFi System",
+          "price": 45000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1606904825846-647eb07f5be2",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Faysal",
+              "comment": "No more dead spots in my house.",
+              "stars": 5
+            },
+            { "user": "Riaz", "comment": "Very stable connection.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "nt-03",
+          "name": "D-Link 8-Port Switch",
+          "description": "Unmanaged gigabit switch for expanding wired network connectivity.",
+          "short_description": "Gigabit Switch",
+          "price": 2200,
+          "rating": 4.2,
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc51",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Joy",
+              "comment": "Plug and play, works fine.",
+              "stars": 4
+            },
+            { "user": "Munna", "comment": "Small and metal body.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "nt-04",
+          "name": "Ubiquiti UniFi AP AC Pro",
+          "description": "Enterprise-grade access point for high-performance wireless networks.",
+          "short_description": "Enterprise AP",
+          "price": 18500,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+          "seller_details": {
+            "name": "TechLand",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Arif",
+              "comment": "The Gold Standard for APs.",
+              "stars": 5
+            },
+            {
+              "user": "Sumit",
+              "comment": "Software controller is powerful.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "nt-05",
+          "name": "MikroTik hAP ac2",
+          "description": "Dual-concurrent access point that provides WiFi coverage for 2.4GHz and 5GHz frequencies.",
+          "short_description": "Power User Router",
+          "price": 8500,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Mehedi",
+              "comment": "Most customizable router.",
+              "stars": 5
+            },
+            {
+              "user": "Asif",
+              "comment": "Not for non-techy people.",
+              "stars": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Software",
+      "products": [
+        {
+          "id": "sw-01",
+          "name": "Windows 11 Pro Retail",
+          "description": "Official retail license for Microsoft Windows 11 Pro with lifelong support.",
+          "short_description": "OS License",
+          "price": 15500,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1633412802994-5c058f151b66",
+          "seller_details": {
+            "name": "Microsoft BD",
+            "location": "Dhaka",
+            "warranty": "Lifetime"
+          },
+          "reviews": [
+            {
+              "user": "Zaman",
+              "comment": "Official key, no issues.",
+              "stars": 5
+            },
+            { "user": "Rana", "comment": "Activation was quick.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "sw-02",
+          "name": "Microsoft Office 2021",
+          "description": "Home & Business one-time purchase for PC or Mac.",
+          "short_description": "Office Suite",
+          "price": 28000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1633412802994-5c058f151b66",
+          "seller_details": {
+            "name": "Microsoft BD",
+            "location": "Dhaka",
+            "warranty": "Lifetime"
+          },
+          "reviews": [
+            {
+              "user": "Saira",
+              "comment": "Better than monthly subs.",
+              "stars": 5
+            },
+            { "user": "Tania", "comment": "Essential for work.", "stars": 5 }
+          ]
+        },
+        {
+          "id": "sw-03",
+          "name": "Adobe Creative Cloud",
+          "description": "1 Year subscription for Photoshop, Illustrator, Premiere Pro and more.",
+          "short_description": "Creative Suite",
+          "price": 65000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d",
+          "seller_details": {
+            "name": "Adobe BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            { "user": "Anis", "comment": "Every tool I need.", "stars": 5 },
+            {
+              "user": "Farid",
+              "comment": "A bit pricey for individuals.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "sw-04",
+          "name": "Kaspersky Total Security",
+          "description": "Comprehensive antivirus and internet security for 3 devices, 1 year.",
+          "short_description": "Antivirus Protection",
+          "price": 2500,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Bappy",
+              "comment": "Light on system resources.",
+              "stars": 5
+            },
+            {
+              "user": "Hasan",
+              "comment": "Feel safe browsing now.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "sw-05",
+          "name": "IDM Lifetime License",
+          "description": "Internet Download Manager official license for high-speed downloads.",
+          "short_description": "Download Manager",
+          "price": 2800,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+          "seller_details": {
+            "name": "TechLand",
+            "location": "Dhaka",
+            "warranty": "Lifetime"
+          },
+          "reviews": [
+            {
+              "user": "Shanto",
+              "comment": "Best downloader ever.",
+              "stars": 5
+            },
+            {
+              "user": "Rony",
+              "comment": "Integration with Chrome is perfect.",
+              "stars": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Server & Storage",
+      "products": [
+        {
+          "id": "st-01",
+          "name": "Synology DS923+ NAS",
+          "description": "4-bay DiskStation for high-performance data management and sharing.",
+          "short_description": "Private Cloud NAS",
+          "price": 75000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc51",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Muntasir",
+              "comment": "My own private Google Photos.",
+              "stars": 5
+            },
+            {
+              "user": "Rafat",
+              "comment": "DSM software is very easy.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "st-02",
+          "name": "WD Red Pro 10TB HDD",
+          "description": "NAS-optimized hard drive for 24/7 reliability in server environments.",
+          "short_description": "Server Hard Drive",
+          "price": 35000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1531492746076-1a1bd9c2527d",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "5 Years"
+          },
+          "reviews": [
+            { "user": "Pavel", "comment": "Reliable and quiet.", "stars": 5 },
+            { "user": "Adnan", "comment": "Runs cool in my NAS.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "st-03",
+          "name": "Dell PowerEdge T150",
+          "description": "Reliable tower server for small businesses and remote offices.",
+          "short_description": "Entry Level Server",
+          "price": 145000,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc51",
+          "seller_details": {
+            "name": "Dell BD",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            {
+              "user": "Zia",
+              "comment": "Great for local file server.",
+              "stars": 5
+            },
+            {
+              "user": "Karim",
+              "comment": "Build quality is solid.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "st-04",
+          "name": "QNAP 2-Bay NAS TS-233",
+          "description": "Compact NAS for home backup and multimedia center with AI image recognition.",
+          "short_description": "Home Backup NAS",
+          "price": 28000,
+          "rating": 4.4,
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc51",
+          "seller_details": {
+            "name": "TechLand",
+            "location": "Dhaka",
+            "warranty": "2 Years"
+          },
+          "reviews": [
+            {
+              "user": "Shohag",
+              "comment": "Affordable NAS solution.",
+              "stars": 4
+            },
+            {
+              "user": "Joy",
+              "comment": "Mobile app is a bit slow.",
+              "stars": 3
+            }
+          ]
+        },
+        {
+          "id": "st-05",
+          "name": "Seagate IronWolf 4TB",
+          "description": "AgileArray for RAID optimization and 24x7 use in NAS.",
+          "short_description": "Reliable NAS HDD",
+          "price": 12500,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1531492746076-1a1bd9c2527d",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "3 Years"
+          },
+          "reviews": [
+            { "user": "Shuvo", "comment": "Good value for money.", "stars": 5 },
+            { "user": "Asif", "comment": "Quiet performance.", "stars": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Accessories",
+      "products": [
+        {
+          "id": "ac-01",
+          "name": "SteelSeries Apex Pro",
+          "description": "World's fastest mechanical keyboard with adjustable actuation switches.",
+          "short_description": "Fastest Keyboard",
+          "price": 22500,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Emon",
+              "comment": "OmniPoint switches are a dream.",
+              "stars": 5
+            },
+            {
+              "user": "Nabil",
+              "comment": "OLED screen is a cool touch.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "ac-02",
+          "name": "Razer DeathAdder V3 Pro",
+          "description": "Ultra-lightweight wireless ergonomic gaming mouse with 30K optical sensor.",
+          "short_description": "Pro Gaming Mouse",
+          "price": 14500,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1527443195645-1133e772b06e",
+          "seller_details": {
+            "name": "Ryans",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Sakib",
+              "comment": "Weight is almost nothing.",
+              "stars": 5
+            },
+            {
+              "user": "Arif",
+              "comment": "Shape is perfect for palm grip.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "ac-03",
+          "name": "HyperX QuadCast S",
+          "description": "USB condenser gaming microphone with RGB lighting and anti-vibration shock mount.",
+          "short_description": "Streamer Mic",
+          "price": 18500,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc",
+          "seller_details": {
+            "name": "Gadget Studio",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            { "user": "Sami", "comment": "My voice sounds crisp.", "stars": 5 },
+            {
+              "user": "Anik",
+              "comment": "Tap-to-mute is very handy.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "ac-04",
+          "name": "Logitech C922 Pro Stream",
+          "description": "Full HD 1080p webcam for streaming with 720p/60fps video.",
+          "short_description": "Full HD Webcam",
+          "price": 9500,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Lipa",
+              "comment": "Great for meetings and vlogging.",
+              "stars": 4
+            },
+            { "user": "Tariq", "comment": "Autofocus is fast.", "stars": 4 }
+          ]
+        },
+        {
+          "id": "ac-05",
+          "name": "Elgato Stream Deck MK.2",
+          "description": "15 customizable LCD keys to control apps, tools and platforms.",
+          "short_description": "Creator Console",
+          "price": 16500,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1614624532983-4ce03382d63d",
+          "seller_details": {
+            "name": "TechLand",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Nahid",
+              "comment": "Increased my productivity 10x.",
+              "stars": 5
+            },
+            { "user": "Joy", "comment": "Must have for streamers.", "stars": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Gadget",
+      "products": [
+        {
+          "id": "gd-01",
+          "name": "Sony WH-1000XM5",
+          "description": "Industry leading noise canceling wireless headphones with crystal clear call quality.",
+          "short_description": "Best ANC Headphones",
+          "price": 38000,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+          "seller_details": {
+            "name": "Sony BD",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Nora",
+              "comment": "I can't hear anything but music.",
+              "stars": 5
+            },
+            {
+              "user": "Rony",
+              "comment": "So comfortable for long flights.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "gd-02",
+          "name": "Apple Watch Ultra 2",
+          "description": "The most rugged and capable Apple Watch ever with 36-hour battery life.",
+          "short_description": "Extreme Sports Watch",
+          "price": 95000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1434493907317-a46b59b81847",
+          "seller_details": {
+            "name": "Gadget & Gear",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Tanvir",
+              "comment": "Screen is incredibly bright.",
+              "stars": 5
+            },
+            {
+              "user": "Sakib",
+              "comment": "Action button is very useful.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "gd-03",
+          "name": "Meta Quest 3",
+          "description": "Mixed reality headset with breakthrough visuals and spatial audio.",
+          "short_description": "Mixed Reality Headset",
+          "price": 68000,
+          "rating": 4.7,
+          "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac",
+          "seller_details": {
+            "name": "Gadget Studio",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Shohag",
+              "comment": "The passthrough is amazing.",
+              "stars": 5
+            },
+            {
+              "user": "Joy",
+              "comment": "Battery life is a bit short.",
+              "stars": 4
+            }
+          ]
+        },
+        {
+          "id": "gd-04",
+          "name": "Nintendo Switch OLED",
+          "description": "7-inch OLED screen, wide adjustable stand and 64GB storage.",
+          "short_description": "Handheld Console",
+          "price": 35000,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1578303372216-81415914619e",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Mim",
+              "comment": "Colors are so much better now.",
+              "stars": 5
+            },
+            {
+              "user": "Fahad",
+              "comment": "Best console for Zelda.",
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "id": "gd-05",
+          "name": "DJI Osmo Mobile 6",
+          "description": "Smartphone gimbal stabilizer with 3-axis stabilization and built-in extension rod.",
+          "short_description": "Phone Gimbal",
+          "price": 16500,
+          "rating": 4.6,
+          "image": "https://images.unsplash.com/photo-1596708051770-07e324c47842",
+          "seller_details": {
+            "name": "Star Tech",
+            "location": "Dhaka",
+            "warranty": "1 Year"
+          },
+          "reviews": [
+            {
+              "user": "Pappu",
+              "comment": "My videos look cinematic.",
+              "stars": 5
+            },
+            {
+              "user": "Aysha",
+              "comment": "Takes time to master the app.",
+              "stars": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
